@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.parte_cima{
+    background-image: url("./img/banner.jpeg");
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    font-size: 24px;
+    display: flex;
+    height: auto;
+    align-items: center;
+}
+
+.parte_baixo{
+    height: 3rem;
+    background-color: #2064ca;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.parte_baixo a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+main {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    min-height: 72vh;
+}
+
+.contatoform {
+    align-items: center;
+    justify-content: center;
+}
+
+.index_text h1 {
+    font-weight: 800;
+    padding: 1rem 1rem;
+}
+
+.index_text h2 {
+    font-size: large;
+    font-weight: 100;
+    padding: 1rem 1rem;
+}
+
+.index_text ol, ul {
+    padding: 1rem 2rem;
+    font-size: large;
+    font-weight: 100;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+fieldset{
+    margin: 5rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+select{
+    border: 1px solid gray;
+    background-color: white;
+}
+
+input {
+    border: 1px solid gray;
+}
+
+textarea {
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+.botoes button {
+    margin: 0 0.5rem;
+    background-color: #2c74e2;
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+div {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.toldo {
+    display: block;
+}
+
+.toldo p {
+    font-size: 25px;
+}
+
+.toldo div, p, a{
+    font-weight: normal;
+    padding: 0 1rem;
+    color: black;
+    text-decoration: none;
+}
+
+.toldo div li{
+    margin: 1rem;
+}
+
+.toldo div p{
+    font-weight: 800;
+}
+
+.toldo p{
+    padding: 1rem;
+}
+
+.toldo div a{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;
+}
+
+.conteudo {
+    text-align: left;
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curso h1 {
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+td {
+    text-align: center;
+}
+
+table, td, tr, th {
+    width: max-content;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 0px 1rem;
+}
+
+.parteesp{
+    padding: 1rem;
+    font-size: 20px ;
+}
+
+
+footer{
+    color: white;
+    background-color: #2064ca;
+    font-size: small;
+    height: 2rem;
+}
